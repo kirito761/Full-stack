@@ -1,0 +1,699 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+html, body {
+  min-height: 100%;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}*/
+
+
+.header-bar{
+    display: flex;
+    width: auto;
+    height: 80px;
+    margin: 0 0 37px;
+    padding: 15px 101px 0px 102px;
+    background-color: #ce0505;
+}
+
+.e {
+  width: 32px;
+  height: 47px;
+  font-family: Poppins-SemiBold;
+  font-size: 33px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: left;
+  color: #eb2929;
+}
+
+.Ellipse-2 {
+  width: 52px;
+  height: 52px;
+  margin: 0 102px 0 0;
+  padding: 3px 3px 1px;
+  background-color: #fff;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.title{
+  width: 512px;
+  height: 51px;
+  margin: 37px 25px 27px 113px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.filters{
+  width: 260px;
+  height: 682px;
+  margin: 27px 45px 8px 113px;
+  padding: 17px 25px 31px 26px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  position: relative;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 800px;
+    position: absolute;
+}
+
+.shops{
+  width: auto;
+  margin: 27px 15px 0 0;
+  height: auto;
+}
+
+.option-1{
+  width: 794px;
+  height: 291px;
+  margin: 0px 0px 34px 0px;
+  padding: 25px 32.6px 20px 35px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+}
+
+.option-2{
+    width: 794px;
+    height: 291px;
+    margin: 5px 0px 38px 0px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.option-data{
+  display: flex;
+  border-bottom: solid 1px #dedfe5;
+}
+
+.image-food{
+  width: 120px;
+  height: 120px;
+  margin: 0 41px 31px 0;
+  /*opacity: 0.34;*/
+  background-color: #fff;
+}
+img.shutterstock_1154073754 {
+  width: 120px;
+  height: 120px;
+  margin: 0 41px 31px 0;
+  /* object-fit: fill; */
+  border-radius: 25%;
+}
+
+
+.option-price{
+  display: flex;
+  position: absolute;
+  width: auto;
+  margin: 26px 0 0 0;
+}
+
+.option-price-cost-two{
+  /*margin: 0 614px 0 40px;*/
+  position: relative;
+}
+
+.Shop-1-Plot-D-Samruddhi-Complex-Chincholi- {
+  width: 365px;
+  height: 23px;
+  margin: 5px 195.4px 38px 46px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+
+.CUISINES-COST-FOR-TWO {
+  width: auto;
+  height: 118px;
+  margin: 207px 52px 9px 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+
+.Bakery-700 {
+  width: auto;
+  height: 69px;
+  margin: 26px 294.4px 0 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.word {
+    width: 55px;
+    height: 25px;
+    margin: 0 154px 10px 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .Select-Location {
+    width: 106px;
+    height: 20px;
+    margin: 10px 102px 11px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  #location{
+    width: 208px;
+    height: 35px;
+    margin: 11px 0 22px 1px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+  }
+
+  #Cuisine{
+    width: 51px;
+    height: 20px;
+    margin: 22px 157px 15px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+ 
+
+  .Cost-For-Two {
+    width: 89px;
+    height: 20px;
+    margin: 0px 119px 15px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .Sort {
+    width: 37px;
+    height: 25px;
+    margin: 29px 172px 15px 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .The-Big-Chill-Cakery {
+    width: 298px;
+    height: 43px;
+    margin: 14px 267.4px 5px 41px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .FORT {
+    width: 39px;
+    height: 23px;
+    margin: 5px 521.4px 5px 46px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .North-Indian {
+    width: 85px;
+    height: 20px;
+    margin: 15px 90px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .South-Indian {
+    width: 87px;
+    height: 20px;
+    margin: 12px 92px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .Chinese {
+    width: 57px;
+    height: 20px;
+    margin: 12px 110px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .Fast-Food {
+    width: 67px;
+    height: 20px;
+    margin: 12px 100px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .Street-Food {
+    width: 79px;
+    height: 20px;
+    margin: 12px 90px 26px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .Rectangle-2226 {
+    width: 18px;
+    height: 18px;
+    margin: 15px 11px 14px 1px;
+    border-radius: 1.5px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .Rectangle-2224 {
+    width: 18px;
+    height: 18px;
+    margin: 12px 11px 14px 1px;
+    padding: 5.1px 4.4px 5.4px 3.1px;
+    border-radius: 1.5px;
+    background-color: #3a5075;
+  }
+
+  .nav-box{
+    width: auto;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Rectangle-2330 {
+    width: 36px;
+    height: 36px;
+    margin: 0 13px 0 0;
+    padding: 8.2px 13.5px 9.5px 14.3px;
+    opacity: 1;
+    border-radius: 7px;
+    border: solid 1px #192f60;
+    background-color: #fff;
+  }
+
+  .num {
+    width: 11px;
+    height: 28px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.5; */
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .Rectangle-2229 {
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 14px 1px;
+    border-radius: 1.5px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .Rectangle-2230 {
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 10px 1px;
+    border-radius: 1.5px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .Rectangle-2224 {
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 14px 1px;
+    padding: 5.1px 4.4px 5.4px 3.1px;
+    border-radius: 1.5px;
+    background-color: #3a5075;
+  }
+
+  .Rectangle-2231 {
+    width: 18px;
+    height: 18px;
+    margin: 10px 11px 14px 1px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .Less-than-500 {
+    width: 106px;
+    height: 20px;
+    margin: 15px 73px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  .Less-than-500 .text-style-1 {
+    font-family: RupeeForadian;
+  }
+
+  .Rectangle-2232 {
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 14px 1px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .to1000 {
+    width: 99px;
+    height: 20px;
+    margin: 12px 80px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  .to1000 .text-style-1 {
+    font-family: RupeeForadian;
+  }
+
+  .Rectangle-2233 {
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 14px 1px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+  }
+  .Rectangle-2234 {
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 14px 1px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .Rectangle-2235 {
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 24px 1px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .to1000to1500 {
+    width: 102px;
+    height: 20px;
+    margin: 12px 77px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  
+  .to1000to1500 .text-style-1 {
+    font-family: RupeeForadian;
+  }
+
+  .to1500to2000 {
+    width: 106px;
+    height: 20px;
+    margin: 12px 73px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  
+  .to1500to2000 .text-style-1 {
+    font-family: RupeeForadian;
+  }
+
+  .to2000 {
+    width: 53px;
+    height: 20px;
+    margin: 12px 120px 29px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  
+  .to2000 .text-style-1 {
+    font-family: RupeeForadian;
+  }
+
+  .Rectangle-2322 {
+    width: 18px;
+    height: 18px;
+    margin: 15px 11px 14px 1px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .Rectangle-2323 {
+    width: 18px;
+    height: 18px;
+    margin: 0 11px 0 1px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+  }
+
+  .Price-low-to-high {
+    width: 114px;
+    height: 20px;
+    margin: 15px 65px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .Price-high-to-low {
+    width: 116px;
+    height: 16px;
+    margin: 14px 63px 0 11px;
+    font-family: RupeeForadian;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .Login {
+    width: 43px;
+    height: 23px;
+    margin: 12px 26px 11px 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    position: fixed;
+    right: 308px;
+  }
+
+  .Create-an-account {
+    width: 152px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  .Rectangle-17 {
+    width: 181px;
+    height: 46px;
+    margin: 0 0 0 26px;
+    padding: 12px 14px 11px 15px;
+    border-radius: 3px;
+    border: solid 1px #fff;
+    position: fixed;
+    right: 101px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .filters{
+      display: none;
+      visibility: hidden;
+    }
+
+    .title{
+      justify-self: center;
+      font-size:20px ;
+    }
+
+    .Rectangle-17{
+      display: none;
+      visibility: hidden;
+    }
+    .Login{
+      display: none;
+      visibility: hidden;
+    }
+
+    .header-bar{
+      display: flex;
+      width: 600px;
+     
+      
+     
+  }
+    
+  }
