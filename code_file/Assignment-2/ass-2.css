@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    width: 100%;
+  }
+  body {overflow-x: hidden;}  
+.red{
+    color:red;
+}
+
+.green{
+    color: green;
+}
+
+.top-bar{
+    width: auto;
+    height: 480px;
+    background-image: url(shutterstock_348320018.png);
+    background-size: cover;
+}
+
+.login-bar{
+    height: auto;
+}
+
+.Create-an-account {
+    width: 152px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .Rectangle-17 {
+    float: right;
+    width: 181px;
+    height: 46px;
+    margin: 17px 101px 0 0;
+    padding: 12px 14px 11px 26px;
+    border-radius: 3px;
+    border: solid 1px #fff;
+    justify-content: space-around;
+  }
+
+  .Login {
+    float: right;
+    width: 43px;
+    height: 23px;
+    margin: 29px 23px 0 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  .Ellipse-2 {
+    width: 147px;
+    height: 147px;
+    margin: 0 0 0 45%;
+    padding: 3px 3px 1px;
+    background-color: #fff;
+    border-radius: 140px;
+    text-align: center;
+  }
+  .e {
+    width: 32px;
+    height: 47px;
+    font-family: Poppins-SemiBold;
+    font-size: 87px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    color: #eb2929;
+  }
+
+  .logo{
+    margin: 0; 
+  }
+
+  .Find-the-best-restaurants-cafs-and-bars {
+    width: 754px;
+    height: 51px;
+    margin: 22px 0 0 306px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  .Quick-Searches {
+    width: 239px;
+    height: 43px;
+    margin: 48px 151px 7px 113px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  
+  .Discover-restaurants-by-type-of-meal {
+    width: 331px;
+    height: 25px;
+    margin: 7px 59px 33px 113px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  
+  .cards-item{
+    display: flex;
+  }
+
+  .content{
+    padding-top: 48px;
+  }
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: chartreuse;
+}
+
+/*.left-space{
+  margin-left: 30px;
+}*/
+
+.flx{
+  display: flex;
+}
+
+.Rectangle-5{
+  margin-bottom: 26px;
+  margin-left: 29px;
+  width: 330px;
+  height: 130px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+}
+
+
+img.shutterstock_1154073754 {
+  width: 160px;
+  height: 130px;
+  /*margin: 0 20px 0 0;*/
+  object-fit: fill;
+}
+
+.Breakfast {
+  width: 88px;
+  height: 25px;
+  margin: 25px 49px 4px 0px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.Start-your-day-with-exclusive-breakfast-options {
+  width: auto;
+  height: 62px;
+  margin: 4px 0 44px 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+.info{
+  padding-top: 20px;
+  margin-left: 29px;
+}
+
+.bottom-bar{
+  padding-top: 28px;
+}
+
+.discover{
+  margin-bottom: 33px;
+}
+
+.menu-drop{
+  display: flex;
+  width: auto;
+}
+
+.drop-1{
+  margin-left: 312px;
+  margin-right: 21px;
+  width: 245px;
+  height: 60px;
+}
+
+.drop-2{
+  margin-right: 311px;
+  width: 477px;
+  height: 60px;
+}
+
+@media (max-width: 650px) {
+  .login-bar {
+    display: none;
+  }
+  .menu-drop{
+    display: block;
+  }
+  .drop-1{
+    width: auto;
+    margin: 0 10px 0 10px;
+  }
+  .drop-2{
+    width: auto;
+    margin: 0 10px 0 10px;
+  }
+
+  .Find-the-best-restaurants-cafs-and-bars{
+    margin: auto;
+    font-size: 28px;
+    text-align: center;
+  }
+ .logo{
+   padding: 59px 166px 0 164px;
+ }
+  .Ellipse-2 {
+    width: 90px;
+    height: 90px;
+    margin: 0 147px 28px 134px;
+    padding: 15px 25px 16px 24px;
+    border: solid 1px #707070;
+    background-color: #fff;
+  }
+  .e {
+    width: 41px;
+  height: 59px;
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #eb2929;
+  }
+}
